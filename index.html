@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Custom T-shirt</title>
+</head>
+<center>
+<body>
+<form action="" enctype="multipart/form-data" method="put">
+<h1>Best Quality Custom T-shirts</h1>
+<p>Order Details:</p>
+<img width="250px" src="custom-tshirt.webp" alt="t-shirt"><br><br>
+<label for="tagline">Enter your tagline:</label><br>
+<input type="text" name="tagline" id="tagline"><br><br>
+<label for="color">Choose Color:</label><br>
+<select name="colour" id="colour">
+<option value="Black">Black</option>
+<option value="White">White</option>
+<option value="Red">Red</option>
+<option value="Grey">Grey</option>
+<option value="Blue">Blue</option>
+</select><br><br>
+<label for="size">Select Size:</label><br>
+<select id="size" name="size">
+<option value="S">S</option>
+<option value="M">M</option>
+<option value="L">L</option>
+<option value="XL">XL</option>
+<option value="XXL">XXL</option>
+</select><br><br>
+<label for="quantity">Quantity: </label><br>
+<select id="quantity" name="quantity">
+<option value="1">1 for 200 rupees</option>
+<option value="2">2 for 380 rupees</option>
+<option value="3">3 for 540 rupees</option>
+<option value="4">4 for 720 rupees</option>
+</select><br><br>
+<label for="date">Order Date:</label>
+<br>
+<input type="date" id="date" name="date">
+<br><br>
+<label for="payment_options">Payment Options:</label><br>
+<input type="radio" id="cc" name="color" value="Card">
+<label for="cc">Card</label><br>
+<input type="radio" id="upi" name="color" value="UPI">
+<label for="upi">UPI</label><br>
+<input type="radio" id="crypto" name="color" value="Crypto">
+<label for="crypto">Cash</label><br><br>
+<label for="address">Address:</label><br>
+<input type="text" id="address" name="address">
+<br><br>    
+<button type="submit">Place Order</button>
+</form>
+</body>
+</center>
+</html>
